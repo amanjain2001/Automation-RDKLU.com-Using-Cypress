@@ -1,0 +1,19 @@
+{
+    "baseUrl":"https://www.rdklu.com/",
+    "defaultCommandTimeout":6000,
+    "testFiles": "**/*.feature",
+    "env":{
+      "paymentPageUrl":"https://payments.cashfree.com/order/#FSG7kixtpz7GYHjUsmMX",
+      "redirectCancelPaymentUrl":"https://www.rdklu.com/8065505/checkouts/fc7432bd79bcd1f7e89c5b6885504fee?x_account_id=842599c0f940c7f50ea0bab5c95248&x_amount=2205.00&x_currency=INR&x_gateway_reference=N%2FA&x_reference=29884216311919&x_result=cancelled&x_signature=f92ac2bb90477b883f47569d349165dffb7573969e4a39dd966ce5d0b0fbd1c3&x_test=false&x_timestamp=2022-04-22T08%3A29%3A34Z"
+    },
+
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "charts": true,
+    "reportPageTitle": "My Test Suite",
+    "embeddedScreenshots": true,    
+    "inlineAssets": true
+  },
+  "video": false
+}
